@@ -962,23 +962,23 @@ $EndComp
 $Comp
 L 74xGxx:74LVC2G17 U4
 U 2 1 6071A724
-P 3150 2900
-F 0 "U4" H 3125 3167 50  0000 C CNN
-F 1 "74LVC2G17" H 3125 3076 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3150 2900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3150 2900 50  0001 C CNN
-	2    3150 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74xGxx:74LVC2G17 U4
-U 1 1 60720DDC
 P 3150 2200
 F 0 "U4" H 3125 2467 50  0000 C CNN
 F 1 "74LVC2G17" H 3125 2376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3150 2200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3150 2200 50  0001 C CNN
-	1    3150 2200
+	2    3150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xGxx:74LVC2G17 U4
+U 1 1 60720DDC
+P 3150 2900
+F 0 "U4" H 3125 3167 50  0000 C CNN
+F 1 "74LVC2G17" H 3125 3076 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3150 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3150 2900 50  0001 C CNN
+	1    3150 2900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1060,8 +1060,6 @@ F 3 "" H 2550 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3500 2450 3500 2900
-Wire Wire Line
 	3500 2900 3450 2900
 $Comp
 L Mechanical:MountingHole H3
@@ -1133,4 +1131,6 @@ Wire Wire Line
 	4200 6850 4400 6850
 Wire Wire Line
 	3650 6850 3900 6850
+Wire Wire Line
+	3500 2450 3500 2900
 $EndSCHEMATC

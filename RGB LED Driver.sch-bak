@@ -1086,17 +1086,6 @@ F 3 "~" H 10900 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 607A223E
-P 600 600
-F 0 "H1" H 700 646 50  0000 L CNN
-F 1 "MountingHole" H 700 555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 600 50  0001 C CNN
-F 3 "~" H 600 600 50  0001 C CNN
-	1    600  600 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 607A2961
 P 800 7150
